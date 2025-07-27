@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loading Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+
+    .loader-container {
+      text-align: center;
+    }
+
+    .spinner {
+      width: 70px;
+      height: 70px;
+      border: 6px solid rgba(255, 255, 255, 0.1);
+      border-top: 6px solid #00f7ff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    .dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      background-color: #00f7ff;
+      border-radius: 50%;
+      animation: bounce 0.6s infinite alternate;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    .loading-text {
+      font-size: 1.3rem;
+      opacity: 0;
+      animation: fadeIn 1.2s ease-in-out 0.6s forwards;
+    }
+
+    .arun-text {
+      margin-top: 30px;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #00f7ff;
+      opacity: 0;
+      transform: scale(0.8);
+      animation: showArun 1s steps(2) 3s forwards;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    @keyframes showArun {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loader-container">
+    <div class="spinner"></div>
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <div class="loading-text">Loading, please wait...</div>
+    <div class="arun-text">Arun Mani</div>
+  </div>
+</body>
+</html>

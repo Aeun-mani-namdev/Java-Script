@@ -1,0 +1,20 @@
+// Primitive Data Types: These are immutable and represent single, simple values. There are seven primitive data types:
+
+//1. String: Represents textual data (e.g., "hello").
+//2. Number: Represents both integer and floating-point numbers (e.g., 42, 3.14).
+//3.  BigInt: Represents arbitrarily large integers (e.g., 9007199254740992n).
+//4.  Boolean: Represents a logical entity with two possible values: true or false.
+//5.  Undefined: Indicates that a variable has been declared but not yet assigned a value.
+//6.  Symbol: Represents a unique and immutable value, often used for object property keys to avoid naming collisions.
+//7.  Null: Represents the intentional absence of any object value.
+
+
+// Object Data Type:- 
+
+// Object: A complex data type used to store collections of data and more complex entities. This includes:
+
+// Plain Objects: Key-value pairs (e.g., { name: "John", age: 30 }).
+// Arrays: Ordered lists of values (e.g., [1, 2, 3]).
+// Functions: Callable objects that encapsulate code.
+// Dates: Objects representing specific points in time.
+// Built-in Objects: Such as Math, RegExp, JSON, Map, Set, etc.
