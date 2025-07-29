@@ -23,6 +23,7 @@ console.log("a ** b =", a**b); // Exponentiation Operator
 
 // unary Operators
 console.log("Unary Operators");
+// +, -, ++, --
 
 console.log("post increment and post decerement");
 let d =5;
@@ -45,6 +46,7 @@ console.log("--e =", --e);  // pre decrement
 
 //   Assigment Operators
 console.log("Assigment Operators");
+// =, +=, -=, *=, /=, %=, **=
 let f = 5;
 let g = 5;
 let h = 5
@@ -64,3 +66,8 @@ console.log("h = ",h);
 
 i **=4; // i = i ** 4 = 625;
 console.log("i = ",i);
+
+
+
+
+
