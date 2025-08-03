@@ -7,16 +7,16 @@ console.log(typeof str)
 let str1 = "SalmanSir"
 console.log(str1.length);
 
-let str2 = "SalmanSirFromITShaala"
-console.log(str2.length);
-console.log(str2[0])
-console.log(str2[1])
-console.log(str2[2])
-console.log(str2[3])
-console.log(str2[4])
-console.log(str2[5])
-console.log(str2[9])
-console.log(str2[13])
+let strName = "SalmanSirFromITShaala"
+console.log(strName.length);
+console.log(strName[0])
+console.log(strName[1])
+console.log(strName[2])
+console.log(strName[3])
+console.log(strName[4])
+console.log(strName[5])
+console.log(strName[9])
+console.log(strName[13])
 
 //  Template literals in js
 //  A way to have embedded expressions in strings
@@ -116,3 +116,26 @@ console.log(friendName.length);
 let string = "i love js";
 let str13= string.replace("love","143");
 console.log(str13);
+
+let collegeName = "Apna College";
+console.log(collegeName);
+console.log(collegeName.length);
+console.log(typeof collegeName);
+console.log(collegeName[0])
+console.log(collegeName[1])
+console.log(collegeName[2])
+console.log(collegeName[3])
+console.log(collegeName[4])
+console.log(collegeName[5])
+console.log(collegeName[11])
+
+let smalChar = "Apna College";
+let char = "     apna college   ";
+let sirName = "\tAman sir"
+console.log(smalChar.toUpperCase());
+console.log(smalChar.toLowerCase());
+console.log(char.trim());
+console.log(smalChar.slice(1,4));
+console.log(smalChar.concat(sirName))
+console.log(smalChar.replace("p","l"))
+console.log(smalChar.replace("A","l"))
