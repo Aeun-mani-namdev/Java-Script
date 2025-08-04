@@ -54,7 +54,7 @@ console.log(dcHeroes);
  console.log(`100 plus number${num}`);
 
 console.log(num.splice(1,4));
-console.log(num);
+console.log(num);                  //splice cut and add
 
 let arr = [1,2,3,4,5,6,7,8,9];
 arr.splice(2,1);
