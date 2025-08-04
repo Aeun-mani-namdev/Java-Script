@@ -3,6 +3,6 @@
 //eg. user name = "Arun mani Namdev", username should be "@arunmani1234"
 
 let fullName = prompt("Enter your full name with out spaces");
-let userName = "@"+fullName+fullName.length;
-
+// let userName = "@"+fullName+fullName.length;
+let userName = "@".concat(fullName)+fullName.length;
 console.log(userName);

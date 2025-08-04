@@ -27,7 +27,7 @@ for(let i = 0; i <= 100; i=i+1){
 let gameNumber= 25;  // "25"
 let userNum = prompt("Guess the game number : ");
 
-while (userNum != gameNumber) {  //!==
+while (userNum != gameNumber) {  //!==      
   userNum = prompt("You enterd wrong number, gusse again : ");
 }
 console.log("Congratulation, you enterd the right number", gameNumber);
