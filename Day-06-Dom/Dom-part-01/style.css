@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+    background-color: yellow;
+}
+
+body{ 
+    background-color: pink;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+.CLS-classic{
+    background-color: aqua;
+}

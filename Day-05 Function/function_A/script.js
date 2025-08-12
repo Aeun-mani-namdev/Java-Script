@@ -37,13 +37,14 @@ console.log("two number of sum",a+b);
 }
 sum(2,5);
 
+
 function sub(x,y){
     s = x -y;
     return s;
 }
-
 let val = sub(23,11);
 console.log(val);
+
 
 function value(c,d){
     storData = c * d;

@@ -22,6 +22,5 @@ const arrowSum = (a,b) => {
 const printHello = () => {
     console.log("Hello");
 }
-
 printHello();
 
