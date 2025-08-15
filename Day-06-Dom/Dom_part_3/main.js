@@ -8,7 +8,7 @@ let box1 = document.querySelector("div");
 box1.after(newBtn); // -> Inserts content after the selected element, as its next sibling.
 
 
-let fullName = document.createElement("h1");
+let fullName = document.createElement("h1");  
 fullName.innerText = "Arun mani"
 console.log(fullName);
 let faltuText = document.querySelector(".pera");
@@ -17,16 +17,24 @@ faltuText.after(fullName);  //15:59sec
 let newHeading = document.createElement("h3");
 newHeading.innerText = "it's new Heading"
 console.log(newHeading);
-
 let head = document.querySelector("body");
 head.before(newHeading);
 
+let surName = document.createElement("p")
+surName.textContent = "Namdev";
+console.log(surName);
+let surName1 =  document.querySelector("h1");
+surName1.after(surName);
+
+let nickName = document.querySelector("h4");
+nickName.remove();
 
 
+// appendchild()
+// removechild()
 
 
-
-
+ 
 
 
 
