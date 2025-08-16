@@ -24,6 +24,9 @@ pera.classList.add("class","newClass");
 console.log(pera);
 
 
+/*Exp : div.classList.remove("foo");
+div.classList.add("another-class"); */
+
 
 
 

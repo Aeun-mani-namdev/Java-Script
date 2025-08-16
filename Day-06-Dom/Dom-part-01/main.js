@@ -36,6 +36,7 @@ console.log(firstEl);
 
 let Element =  document.querySelectorAll("p");
 console.log(Element);
+console.dir(Element)
 
 let selectorBtn = document.querySelector("#My-Id");
 console.log(selectorBtn);
@@ -60,5 +61,5 @@ console.log(selectorCls);
  
  let  exp = document.getElementsByClassName("My-Class-0");
 console.log(exp);
-console.log(exp.firstChild.tagname);
-console.log(exp.lastChild.tagname);
+// console.log(exp.firstChild.tagname);
+// console.log(exp.lastChild.tagname);
