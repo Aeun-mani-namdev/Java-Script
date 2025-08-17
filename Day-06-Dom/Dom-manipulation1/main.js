@@ -1,15 +1,17 @@
 let div =  document.querySelector("div");
 console.log(div);
-
 let id = div.getAttribute("id");
 console.log(id)
 
+
+
 let name = div.getAttribute("name");
 console.log(name);
+// let shortName  = document .querySelector("#box");
+// console.log(name);
 
 let pera = document.querySelector(".pera");
 console.log(pera);
-
 let p = pera.getAttribute("class");
 console.log(p);
 // console.log(pera.getAttribute("class","NewClass"));
