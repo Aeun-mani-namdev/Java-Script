@@ -11,11 +11,12 @@ btn_1.addEventListener("click",() => {
 const handler3 = () => {
     console.log("button was clicked - handler3");
 };
-
 btn_1.addEventListener("click",handler3);
+
 // btn_1.addEventListener("click",() => {
 //     console.log("button1 was clicked - handler3");
 // });
+
 btn_1.addEventListener("click",() => {
     console.log("button1 was clicked - handler4");
 });
