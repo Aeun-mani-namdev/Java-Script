@@ -1,3 +1,8 @@
+async function hello () {
+    console.log("hello");
+ }
+
+ hello ();
  /*function asyncFunc () {
     return new Promise ((resolve, reject) => {
         setTimeout (() => {
