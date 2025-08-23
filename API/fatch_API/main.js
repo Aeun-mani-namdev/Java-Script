@@ -43,3 +43,11 @@ Btn.addEventListener("click, getFacts");
 
 // HTTP Verbs -> Hyper text transfer Protocol
 // Response Status Code;
+
+
+
+// Infoormation Responses (100 - 199)
+//successful responses (200 - 299)
+// Redirection messages(300 - 499)
+//client error responses (400 - 499)
+//server error responses (500 - 599)
